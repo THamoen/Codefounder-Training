@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        td {
+            color: blue;
+        }
+        table {
+            border: 2px dashed black;
+        }
+        .header0 {
+            color: green;
+        }
+        .header9 {
+            color: purple;
+        }
+        #kopje {
+            font-family: Arial, Helvetica, sans-serif
+        }
+        #mok {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 30px;
+        }
+    </style>
+
+    <script>
+        var a; //declaration
+        a = 6; //assignment
+        var a;
+        a = 12;
+
+        function popup() { 
+            alert (a * 2)
+        }
+
+        let b = true; //initialization (declarion + assignment)
+
+        let c = "Thomas"; //string vanwege ""
+
+        //alert (popup)
+        //alert('de waarde van a =' + a);
+
+        //console
+        console.log('de waarde van b = ' + b)
+
+        let addition = a + 24;
+        console.log(addition);
+
+
+    </script>
+</head>
+<body>
+
+    <h1 class="header0">Header 1</h1>
+    <h2 class="header9">Header 2</h2>
+    <h3 class="header0">Header 3</h3>
+
+    <p>Paragraaf 1</p>
+    <p>Paragraaf 2</p>
+
+    <span id="kopje">Span 1</span>
+    <span id="mok">Span 2</span>
+
+    <img src="../HTML/htmlFoto.png">
+    <a href="http://www.w3schools.com">ga naar website</a>
+
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+    </ul>
+    
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+    </ol>
+
+    <button type="button" onclick="popup"> 
+        klik hier
+    </button>
+
+    <table>
+        
+        <header>Table 1</header>
+        <tr>
+            <td>tekst 1</td>
+            <td>tekst 2</td>
+        </tr>
+        <tr> 
+            <td style="color: green">tekst 3</td>
+            <td style="color: purple">tekst 4</td>
+        </tr>
+    </table>
+</body>
+</html>
